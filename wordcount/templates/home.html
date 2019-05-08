@@ -1,0 +1,33 @@
+<head>
+        <script
+        src="http://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+ <h1> 글자수세기 <small> 어렵지않아요</small></h1>
+<!-- 'about' 설명페이지로 넘어가기-->
+<a href="{%url 'about'%}">about</a>
+
+<!--글 작성할 폼 만들기-->
+<form action="{%url 'result'%}">
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+    <textarea name='fulltext' cols="75" rows="15"></textarea>
+    <!--결과 페이지로 넘기기-->
+      <input type="submit" class="btn btn-default" value="글자수세기"></button>
+    </form>
+
+</form>
+<br>
+<img 
+</div>
+</body>
